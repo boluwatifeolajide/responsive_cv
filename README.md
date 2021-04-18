@@ -1,2 +1,2 @@
 # responsive_cv
-CV styling
+githubpage: https://boluwatifeolajide.github.io/responsive_cv/
