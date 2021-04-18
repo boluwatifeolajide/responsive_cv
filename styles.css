@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, gray, lightgray);    
+}
+.CV {
+    width: 950px;
+    background: #fff;
+    margin: 25px auto;
+    display: flex;
+}
+
+.left {
+    background: #32353d;
+    width: 300px;
+    padding: 0 20px;
+}
+
+.right {
+    width: calc(100% - 300px);
+}
+
+.pb {
+    padding-bottom: 20px;
+}
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    color: lightgray;
+    position: relative;
+    text-align: right;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.title:before {
+    content: "";
+    position: absolute;
+    top: 35px;
+    right: 0;
+    width: 50px;
+    height: 3px;
+    background: gray;
+}
+
+.left .icon {
+    font-size: 20px;
+    color: lightgray;
+}
+.left .text {
+    color: lightgray;
+    font-size: 13px;
+}
+.contact ul {
+    list-style: none;
+}
+.contact .li_wrap {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact .li_wrap .icon {
+    width: 30px;
+    height: 30px;
+    bottom: #fff;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+.contact .li_wrap .text{
+    width: calc(100% - 30px);
+    word-break: break-word;
+    color: #fff;
+}
+.volunteer .info, .date {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px; 
+    margin: 10px auto;
+    letter-spacing: 3px;
+}
+.volunteer ul {
+    list-style: none;
+}
+.volunteer .date {
+     color: gray;
+     justify-content: left;
+}
+.sub_title {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: gray;
+}
+.info .li_wrap {
+    color: #fff;
+    padding: 1opx;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+.info ul {
+    list-style: none;
+}
+
+
+
+.header {
+    background: #32353d;
+    padding: 15px 30px;
+    color: #fff;
+    height: 250px;
+}
+
+.header .name {
+    font-size: 52px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: lightgray;
+}
+.header .role {
+    font-weight: 300;
+    font-size: 20px;
+}
+.header .about {
+    margin-top: 20px;
+    line-height: 26px;
+}
+.right_inner .edu {
+    margin-top: 30px;
+}
+.edu_wrap ul {
+    list-style: none;
+}
+.right_inner .li_wrap {
+    display: flex;
+    margin-bottom: 15px;
+}
+.right_inner .li_wrap .date {
+    width: 140px;
+    color: gray;
+}
+.right_inner .li_wrap .info {
+    width: calc(100% - 140px);
+    padding-left: 25px;
+    position: relative;
+}
+.right_inner .li_wrap .info_title {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: rgb(117, 106, 106);
+}
+.exp_wrap ul {
+    list-style: none;
+}
+
+.right_inner .li_wrap .info_com {
+    font-weight: 300;
+    font-size: 16px;
+    margin: 3px;
+}
+   
+.right_inner .li_wrap .info_cont {
+    margin-top: 15px;
+}
+.info_cont p {
+    font-size: 14px;
+}
+.right_inner .li_wrap .info:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background: gray;
+    border-radius: 50%;
+}
+.right_inner .li_wrap .info:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 4px;
+    width: 2px;
+    height: 90%;
+    background: gray;
+}
